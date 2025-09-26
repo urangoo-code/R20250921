@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume — Your Name</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 40px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    h1, h2, h3 {
+      margin: 0;
+      font-weight: 700;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 24px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+    p {
+      margin: 5px 0;
+    }
+    .contact-info {
+      margin-bottom: 20px;
+    }
+    .contact-info a {
+      color: #333;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+    .skills, .experience, .education {
+      margin-bottom: 30px;
+    }
+    .skill-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skill-list li {
+      background-color: #eee;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .job, .edu {
+      margin-bottom: 15px;
+    }
+    .job h3, .edu h3 {
+      margin-bottom: 5px;
+    }
+    .job span, .edu span {
+      font-style: italic;
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Your Name</h1>
+    <p>Professional Title / Position</p>
+    
+    <div class="contact-info">
+      <a href="mailto:youremail@example.com">youremail@example.com</a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <span>Phone: +123 456 7890</span>
+    </div>
+
+    <h2>Skills</h2>
+    <ul class="skill-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>React</li>
+      <li>SQL</li>
+    </ul>
+
+    <h2>Experience</h2>
+    <div class="experience">
+      <div class="job">
+        <h3>Job Title — Company Name</h3>
+        <span>Location | MM/YYYY – Present</span>
+        <p>• Describe your key responsibilities and achievements here.</p>
+        <p>• Use bullet points to make it readable.</p>
+      </div>
+      <div class="job">
+        <h3>Previous Job — Company Name</h3>
+        <span>Location | MM/YYYY – MM/YYYY</span>
+        <p>• Describe your key responsibilities and achievements here.</p>
+      </div>
+    </div>
+
+    <h2>Education</h2>
+    <div class="education">
+      <div class="edu">
+        <h3>Degree — University Name</h3>
+        <span>Location | Graduation Year</span>
+        <p>• Optional: GPA or honors</p>
+      </div>
+      <div class="edu">
+        <h3>Previous Degree — University Name</h3>
+        <span>Location | Graduation Year</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
